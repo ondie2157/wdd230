@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSJDM Bulacan | Weather Forecast</title>
+    <title>CSJDM Bulacan | CSJDM Weather</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/small.css">
     <link rel="stylesheet" href="./css/medium.css">
@@ -15,46 +15,65 @@
 
 <body>
     <header>
-        <img src='images/csjdmddrrmo.png' alt="Climate Connection Logo">
-        <h1 class="title">CSJDM Weather</h1>
-        <p class="description">connect to your weather</p>
-    </header>
+        <div id="head">
+            
+                <img src='images/csjdmddrrmo.png' alt="Climate Connection Logo">
+            
+            <section>
+                <h1 class="title">CSJDM Weather</h1>
+                <p>Chamber of Commerce</p>
+            </section>
+            <section>
+                <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook.png" width="20"
+                        alt="facebook-icon"></a>
+                <a href="https://twitter.com/"><img class="social-media" src="images/twitter.png" width="20"
+                        alt="twitter-icon"></a>
+                <a href="https://instagram.com/"><img class="social-media" src="images/instagram.png" width="20"
+                        alt="instagram-icon"></a>
+                <a href="https://whatsapp.com/"><img class="social-media" src="images/whatsapp.png" width="20"
+                        alt="whatsapp-icon"></a>
+            </section>
+        </div>
 
-    <nav>
-        <button onclick="toggleMenu()"><p>&#9776 MENU</p></button>
-        <ul id="menu" class="hide">
-            <li>
-                <a href="# ">
-                    <p>HOME</p>
-                </a>
-            </li>
-            <li>
-                <a class="active " href="# ">
-                    <p>CSJDM</p>
-                </a>
-            </li>
-            <li>
-                <a href="# ">
-                    <p>SODA SPRINGS</p>
-                </a>
-            </li>
-            <li>
-                <a href="# ">
-                    <p>TOURIST SPOT</p>
-                </a>
-            </li>
-            <li>
-                <a href="# ">
-                    <p>STORM CENTER</p>
-                </a>
-            </li>
-            <li>
-                <a href="# ">
-                    <p>GALLERY</p>
-                </a>
-            </li>
-        </ul>
-    </nav>
+        <nav>
+            <button onclick="toggleMenu()">
+                <p>&#9776 MENU</p>
+            </button>
+            <ul id="menu" class="hide">
+                <li>
+                    <a href="# ">
+                        <p>HOME</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="active " href="# ">
+                        <p>CSJDM</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="# ">
+                        <p>SODA SPRINGS</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="# ">
+                        <p>TOURIST SPOT</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="# ">
+                        <p>STORM CENTER</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="# ">
+                        <p>GALLERY</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="now"></div>
+    </header>
     <main>
         <div class="container " id="hero ">
             <p>Hero w/ weather summary</p>
@@ -71,7 +90,14 @@
     </main>
 
     <footer>
-        <p>&copy;Weather Forecast | Efren D. Baconawa Jr. | </p>
+        <div class="lfooter">
+            <img src='./images/csjdmddrrmo.png' width="100" alt=" csjdmddrrmo Logo">
+            <h2>CSJDM Weather</h2>
+            <p>CSJDM, Philippines | Location Map</p>
+        </div>
+        <hr>
+
+        <p>&copy;<span id="year"></span>CSJDM Weather | Efren D. Baconawa Jr. | WDD 230 </p>
         <p><span id="date"></span></p>
     </footer>
     <script src="./js/script.js "></script>
@@ -80,4 +106,3 @@
 </body>
 
 </html>
-

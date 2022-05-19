@@ -95,9 +95,24 @@ header h1 {
     padding: 0;
     padding-top: 1rem;
     padding-bottom: 0;
-    color: #0800a8;
+    color: #00a84e;
     margin: 0;
     text-justify: center;
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 3rem;
+}
+
+#now {
+    text-align: center;
+    padding: 1rem;
+    font-size: large;
+    background-color: #888;
+    font-weight: 800;
 }
 
 .description {
@@ -134,7 +149,7 @@ footer {
 
 nav,
 footer {
-    background-color: #0800a8;
+    background-color: #00a84e;
     color: white;
 }
 
@@ -157,4 +172,10 @@ footer a {
 /*==========MAIN CONTENT==================*/
 
 .container {
-    background-color
+    background-color: white;
+    color: black;
+    border: 1px solid #0800a8;
+    padding: 1rem;
+    margin: 3rem auto 3rem auto;
+    max-width: 65%;
+}
