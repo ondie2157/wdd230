@@ -1,0 +1,88 @@
+{
+    "businesses" : [
+        {
+            "name": "METROGATE MOLDEX REALTY",
+            "address": "Gulod, Brgy. Proper, CSJDM",
+            "phone": "0912-89893113",
+            "website": "https://www.metrogatesanjose.com/",
+            "images": "images/keller-williams-logo.webp"
+        },
+        {
+            "name": "RTB Roof and Tiles",
+            "address": "Muzon, CSJDM",
+            "phone": "0916-897989",
+            "website": "#",
+            "images": "images/pnpa.webp"
+        },
+        {
+            "name": "BEECON",
+            "address": "Gumaoc East CSJDM, San Jose Del Monte",
+            "phone": "406-755-8400",
+            "website": "#",
+            "images": "images/riddleslogo.webp"
+        },
+        {
+            "name": "Sheri's TPC Eloading Business",
+            "address": "Blk.15 lot 16 Carissa home Kaypian San Jose Delmonte Bulacan 3023 San Jose del Monte Central Luzon ",
+            "phone": "0939 849 6395",
+            "website": "#",
+            "images": "images/helpful-village.webp"
+        },
+        {
+            "name": "Sky Cable",
+            "address": "Elvie Building Poblacion (Beside Petron Gasoline Station) 3023 San Jose Del Monte Bulacan",
+            "phone": "(04463) 10000",
+            "website": "mysky.com.ph",
+            "images": "images/navigate-logo.webp"
+        },
+        {
+            "name": "LCC Phils.",
+            "address": "446 N Prez Street, Gaya Gaya 3023 San Jose Del Monte Bulacan",
+            "phone": "0917 967 6312",
+            "website": "#",
+            "images": "images/pure-west.webp"
+        },
+        {
+            "name": "Northridge Royale Subdivision Entrance",
+            "address": "Barangay Santo Cristo, 3023, San Jose del Monte City, Bulacan",
+            "phone": "406-752-8747",
+            "website": "csjdm.gov.ph",
+            "images": "images/hrblock.webp"
+        },
+        {
+            "name": "Grotto Vista Resort",
+            "address": "Brgy. Graceville, San Jose Del Monte 3023 San Jose del Monte Central Luzon",
+            "phone": "(044) 815 0943",
+            "website": "#",
+            "images": "images/flathead-beacon.webp"
+        },
+        {
+            "name": "EXPRESS EMPLOYMENT PROFESSIONALS",
+            "address": "Bagong Buhay Iii 3023 San Jose Del Monte Bulacan ",
+            "phone": "0915 999 5454",
+            "website": "#",
+            "images": "images/express-logo.webp"
+        },
+        {
+            "name": "Philcakes",
+            "address": "A Nat'L Road Carriedo Muzon 3023 San Jose Del Monte Bulacan ",
+            "phone": "(044) 307 3058",
+            "website": "#",
+            "images": "images/codesk.webp"
+        },
+        {
+            "name": "Mira-Jec Trucking Service",
+            "address": "15 Blk. 15 Lot 5 Sec-24 Ph3 Pabahay Brgy. Muzon 3023 San Jose Del Monte Bulacan",
+            "phone": "0918 367 5573",
+            "website": "#",
+            "images": "images/intsy-prints.webp"
+        },
+        {
+            "name": "SJDM busline",
+            "address": "Ipo Road Minuyan Proper 3023 San Jose Del Monte Bulacan",
+            "phone": "0917 546 6280",
+            "website": "#",
+            "images": "images/super-one.webp"
+        }
+    ]
+}

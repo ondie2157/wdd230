@@ -1,0 +1,246 @@
+
+
+/* Css for smaller screen devices */
+* {
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+p, li, div {
+    font-family: 'Montserrat';
+}
+#home-page p {
+    font-weight: bold;
+}
+/* ------- Navigation ------- */
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white
+}
+nav {
+    background-color: #028b72;
+    text-align: center;
+    padding: .2rem;
+}
+#menu-btn {
+    font-size: 20px;
+    align-items: center;
+    padding-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: .8rem 2vw;
+    border-top: 1px solid #028b72;
+    font-size: large;
+}
+nav ul li a:hover {
+    background-color: #FCA311;
+    color: #000000;
+}
+nav ul {
+    display: none;
+}
+nav ul.open {
+    display: block;
+}
+#now {
+    text-align: center;
+    padding: 1rem;
+    font-size: large;
+    background-color: #888;
+    font-weight: 800;
+}
+/* ------- Header -------- */
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-left: 2rem;
+}
+.header-content h1 {
+    font-family: 'Noto Serif';
+}
+/* ------- Homepage ------- */
+main#home-page {
+    margin: .5rem;
+    padding: .1rem;
+    margin: 0 auto;
+}
+main > div {
+    margin-top: 2rem;
+}
+div.join picture img{
+    padding: 1rem 0;
+}
+.news-events, .weather, .join, .spotlight1, .spotlight2 {
+    text-align: center;
+}
+.spotlight1 section, .spotlight2 section {
+    margin-bottom: 2rem;
+    border-bottom: #666 solid 1px;
+    padding: 1rem;
+    background-color: #028b72;
+    border: 2px solid rgb(14, 14, 14);
+    color: #E5E5E5;
+}
+.spotlight1 section img, .spotlight2 section img {
+    padding: 1rem 0;
+}
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+}
+div.herodiv section {
+    position: absolute;
+    top: 5%;
+	left: -600px;
+    right: 0;
+    padding: 1.5rem;
+    color: rgba(92, 7, 7, 0.788);
+    background-color: rgba(255,255,255,.6);
+    animation: slide 1.5s forwards;
+    animation-delay: 1s;
+}
+
+.gold-members {
+    height: 40vh;
+    overflow: scroll;
+}
+.gold-members h2 {
+    background-color: #FCA311;
+    color: #028b72;
+    padding: 1rem 0;
+}
+.gold-members section a, .spotlight1 section a, .spotlight2 section a {
+    text-decoration: none;
+    color: #14213D;
+}
+.spotlight1 section a:hover, .spotlight2 section a:hover {
+    text-decoration: underline;
+}
+main div button {
+    color: #14213D;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-weight: bolder;
+    background-color: transparent;
+    border: 3px solid #FCA311;
+    box-shadow: 0 0 10px #E5E5E5;
+    border-radius: 10px;
+}
+main div button:hover {
+    background-color: #FCA311;
+    color: #14213D;
+}
+.weather {
+    background-color: #E5E5E5; 
+}
+h3, main div.news-events p, main div.join p,
+.discover article h2, .discover article p {
+    padding: 1rem;
+}
+main div.weather h2 {
+    padding: 10px;
+}
+.join {
+    padding: 3rem;
+    box-shadow: 0 0 10px #888;
+}
+.join button {
+    display: block;
+    color: #028b72;
+    border: none;
+    background-color: #FCA311;
+    width: 100%;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+.join button:hover {
+    background-color: #028b72;
+    color: #FCA311;
+}
+.news-events h2 {
+    background-color: #028b72;
+    color: white;
+    padding: 10px;
+}
+.herodiv section h2 {
+    margin-bottom: 1rem;
+}
+.hero-img source{
+    vertical-align: middle;
+}
+/* -------Weather--------*/
+.weather {
+    position: relative;
+    height: 30vh;
+}
+.weatherInfo {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    text-align: left;
+}
+.weather figure {
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+}
+#weatherIcon {
+    width: 20%;
+  }
+
+
+
+
+/* ------- Footer ------- */
+.footer-content {
+    display: block;
+    background-color: #028b72;
+    color: white;
+    padding: 10px;
+    padding-top: 0;
+}
+.footer-content div {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+}
+.base-footer {
+    text-align: center;
+    padding: 1.5rem 2vw;
+    margin: 2rem;
+}
+.base-footer p {
+    padding: 5px;
+    color: #666;
+}
+/*----Top-page banner----*/
+#top-page-banner {
+    text-align: center;
+    padding: 10px;
+    background-color: #FCA311;
+}
+.bannerBtn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5%;
+    font-weight: bolder;
+    font-size: x-large;
+}
