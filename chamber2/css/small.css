@@ -253,3 +253,21 @@ main div.weather h2 {
     font-weight: bolder;
     font-size: x-large;
 }
+/* ----Discover Media Card------ */
+.media-card {
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 2px #888;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.discover-article {
+    padding: 2rem;
+    text-align: center;
+}
+.discover-article p {
+    padding-top: 1rem;
+}
+.media-btn:hover {
+    background-color: gray;
+}

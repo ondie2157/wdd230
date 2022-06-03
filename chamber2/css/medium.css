@@ -53,4 +53,14 @@
         border-radius: 5px;
         padding: 1.5rem;
     }
+    /*----Discovery Page-----*/
+.media-card {
+    width: 75%;
+    transition: ease-in-out 0.3s;;
+    transform: scale(0.9);
+    text-align: center;
+}
+.media-card:hover {
+    transform: scale(1.02);
+}
 }
