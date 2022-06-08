@@ -135,5 +135,16 @@
 }
 
 }
+/*-----Join Page------*/
+form  {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2rem;
+    padding: 0 4rem;
+}
+form input.submitBtn {
+   grid-column: 2;
+}
+
 
     
