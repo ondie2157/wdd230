@@ -68,3 +68,7 @@
 form input.submitBtn {
     margin-left: 2%;
 }
+/*-------Directory Page---------*/
+.grid-view {
+    grid-template-columns: 1fr 1fr;
+}
