@@ -145,16 +145,9 @@ main div button:hover {
 }
 .weather {
     background-color: #E5E5E5; 
-    display: grid;
+   
 }
 
-.wicon {
-    grid-column: 1/2;
-}
-
-.wnum {
-    grid-column: 2/3;
-}
 
 h3, main div.news-events p, main div.join p,
 .discover article h2, .discover article p {
@@ -211,7 +204,7 @@ main div.weather h2 {
     bottom: 20%;
 }
 #weatherIcon {
-    width: 20%;
+    width: 100%;
   }
 
 
