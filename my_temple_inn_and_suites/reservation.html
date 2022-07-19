@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Welcome to the temple inn and suites, We are the hotel for your soul!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Temple Inn and Suites</title>
+</head>
+
+<body>
+    <header class="header-content">
+        <picture>
+            <img src="images/temple-logo.png" width="150" alt="temple logo">
+        </picture>
+        <section class="head">
+            <h1>Temple Inn & Suites</h1>
+            <p>We are here to comfort you</p>
+        </section>
+        <div>
+            <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook-logo-2019.png" width="40"
+                    alt="facebook-icon"></a>
+            <a href="https://twitter.com/"><img class="social-media"
+                    src="images/logo-twitter-circle-png-transparent-image-1.png" width="40" alt="twitter-icon"></a>
+            <a href="https://instagram.com/"><img class="social-media" src="images/instagram.png" width="40"
+                    alt="instagram-icon"></a>
+            <a href="https://whatsapp.com/"><img class="social-media" src="images/whatsapp.png" width="40"
+                    alt="whatsapp-icon"></a>
+        </div>
+    </header>
+    <nav>
+        <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="templeloc.html">Temples</a></li>
+            <li class="current-page"><a href="reservation.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="datetime">
+        <script src="js/currentdate.js"></script>
+    </div>
+    <main class="clearfix">
+        <h1>Place Reservation</h1>
+        <p>All of Our Locations are designated as non-smoking areas, and may only guarantee one parking space per room.
+            Payments are made at the time of check-in, and any discounts are applied at that time. Unless otherwise
+            specified, all check-ins start at 1:00pm and check out is 10:00am. For more information, please view our <a
+                href="terms.html">Terms and Conditions.</a></p>
+        <p>Need Assistance? Call: (808) 080-8080</p>
+        <h2>Reservation Information</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Guest Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required pattern="[A-Za-z ]{5,}"></label>
+                <label class="top">Middle Name <input type="text" name="mname" pattern="[A-Za-z ]{5,}"></label>
+                <label class="top">Last Name* <input type="text" name="lname" required pattern="[A-Za-z ]{5,}"></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required
+                        pattern="[0-9 -]{9,15}"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@email.com" required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></label>
+                <label class="top">Home State or Country <input type="text" name="frmCountryS" placeholder="USA"
+                        pattern="[A-Za-z ]{2,}"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Location Information</legend>
+                <label class="top">Check-In Date* <input type="date" name="inDate" required></label>
+                <label class="top">Check-Out Date* <input type="date" name="outDate" required></label>
+                <label class="top">Location* <select name="inntempleloc" required>
+                        <option value="">Please Select &#9662;</option>
+                        <option value="Dixie - Louisville Kentucky Temple">Dixie - Louisville Kentucky Temple</option>
+                        <option value="Nauvoo - Nauvoo Illinois Temple">Nauvoo - Nauvoo Illinois Temple</option>
+                        <option value="Philippines - Philippines Manila Temple">Philippines - Manila
+                            Temple</option>
+                        <option value="Norwalk - Winter Quarters Nebraska Temple">Norwalk - Winter Quarters Nebraska
+                            Temple</option>
+                        <option value="Palm Desert - Redlands California Temple">Palm Desert - Redlands California
+                            Temple</option>
+                        <option value="Cebu - Cebu Philippines Temple">Cebu - Cebu Philippines Temple</option>
+                    </select></label>
+                <label class="top">Main Room* <select name="room1">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="Honeymoon Suite">Honeymoon Suite</option>
+                        <option value="Bussiness Suite">Bussiness Suite</option>
+                        <option value="Missionary Suite">Missionary Suite</option>
+                        <option value="Family Suite">Family Suite (5 beds)</option>
+                        <option value="3 Queen Bedrooms">3 Queen Bedrooms</option>
+                        <option value="2 Queen Bedrooms">2 Queen Bedrooms</option>
+                        <option value="1 King Bedroom">1 King Bedroom</option>
+                        <option value="1 Queen Bedroom">1 Queen Bedroom</option>
+                    </select></label>
+                <label class="top">Second Room <select name="room2">
+                        <option value="">None &#9662;</option>
+                        <option value="Honeymoon Suite">Honeymoon Suite</option>
+                        <option value="Bussiness Suite">Bussiness Suite</option>
+                        <option value="Missionary Suite">Missionary Suite</option>
+                        <option value="Family Suite">Family Suite (5 beds)</option>
+                        <option value="3 Queen Bedrooms">3 Queen Bedrooms</option>
+                        <option value="2 Queen Bedrooms">2 Queen Bedrooms</option>
+                        <option value="1 King Bedroom">1 King Bedroom</option>
+                        <option value="1 Queen Bedroom">1 Queen Bedroom</option>
+                    </select></label>
+                <label class="top">Third Room<select name="room3">
+                        <option value="">None &#9662;</option>
+                        <option value="Honeymoon Suite">Honeymoon Suite</option>
+                        <option value="Bussiness Suite">Bussiness Suite</option>
+                        <option value="Missionary Suite">Missionary Suite</option>
+                        <option value="Family Suite">Family Suite (5 beds)</option>
+                        <option value="3 Queen Bedrooms">3 Queen Bedrooms</option>
+                        <option value="2 Queen Bedrooms">2 Queen Bedrooms</option>
+                        <option value="1 King Bedroom">1 King Bedroom</option>
+                        <option value="1 Queen Bedroom">1 Queen Bedroom</option>
+                    </select></label>
+                <div>Do You Need A Handicapped Room?</div>
+                <label class="sbs"><input type="radio" name="handicap" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="handicap" value="no"> No</label>
+                <div>Are You A Full-Time Missionary, Senior Citezen, or Military Service Member?</div>
+                <label class="sbs"><input type="radio" name="discount" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="discount" value="no"> No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Aditional Details or Accomodations</legend>
+                <label class="top">Please enter any additional details in the comments below about anything we may do to
+                    make your stay more comfortable and your experiences at the nearby temple more special.<br>
+                    <textarea name="comments" maxlength="2048"></textarea></label>
+            </fieldset>
+            <input class="submitBtn" type="submit" value="Book Now">
+        </form>
+    </main>
+
+    <footer>
+        <div class="headerItems" id="footerSocial">
+            <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook-logo-2019.png" width="40"
+                    alt="facebook-icon"></a>
+            <a href="https://twitter.com/"><img class="social-media"
+                    src="images/logo-twitter-circle-png-transparent-image-1.png" width="40" alt="twitter-icon"></a>
+            <a href="https://instagram.com/"><img class="social-media" src="images/instagram.png" width="40"
+                    alt="instagram-icon"></a>
+            <a href="https://whatsapp.com/"><img class="social-media" src="images/whatsapp.png" width="40"
+                    alt="whatsapp-icon"></a>
+        </div>
+        <div class="footer4">
+            &#x260F; Phone: (+254) 704 469 693 <strong>|</strong><br />
+            &#x2709; Address: 4800 Montgomery Ln #300, Bethesda, MD 20814 <br />
+            <img id="footerLogo" src="images/temple-logo.png" width="50" alt="Temple Inn and Suites logo"> <br />
+        </div>
+
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12405.620040177426!2d-77.095532!3d38.983252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2ske!4v1648799757393!5m2!1sen!2ske"
+                width="700" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" id="mediumMap"></iframe>
+        </div>
+        <div class="footer3">
+
+            &copy;2022 Temple Inn & Suites | <a href="contacts.html">Contact Us</a> | <a href="terms.html">Guest
+                Policies</a>
+            <p class="sub-footer"><a href="attributions.html">Attributions</a> | <a
+                    href="https://ondie2157.github.io/wdd230">Efren D. Baconawa Jr.</a></p>
+            <script src="js/currentdate.js"></script>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+</body>
+
+</html>

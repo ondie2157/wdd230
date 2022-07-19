@@ -1,0 +1,205 @@
+{
+    "temples": [
+      {
+        "name": "Manila Philippines Temple",
+        "address": "13 Temple Drive corner Whiteplains Ave., Quezon City, 1110 Philippines",
+        "telephone": "(63) 2-8635-9111",
+        "email": "Log in to churchofjesuschrist.org to send email to temple",
+        "services": [
+          "Clothing rental available",
+          "No cafeteria available",
+          "Patron housing available",
+          "Distribution center nearby"
+        ],
+        "history": [
+          "1 April 1981 - Announced",
+          "25 August 1982 - Groundbreaking",
+          "25 September 1984 - Dedicated"
+        ],
+        "ordSched": [
+          "Living or Group Ordinances: By Appointment",
+          "Baptistry: Wednesday, Friday, Saturday",
+          "Other Ordiances: Tuesday - Saturday"
+        ],
+        "sesSched": [
+          "Tuesday & Friday: 6:00pm, 7:30pm",
+          "Wednesday & Friday: 10:00am, 12:00pm, 6:00pm, 7:30pm",
+          "Saturday: 8:30am, 10:00am, 12:00pm, 1:30pm"
+        ],
+        "closureSchedule": [
+          "Monday, 1 August 2022 - Monday, 15 August 2022",
+          "Saturday, 8 October 2022",
+          "Saturday, 24 December 2022",
+          "Saturday, 31 December 2022"
+
+        ]
+      },
+      {
+        "name": "Cebu Philippines Temple",
+        "address": "Gorordo Avenue, Barangay Lahug, Cebu City, 6000 Cebu, Philippines",
+        "telephone": "(63) 32-230-1207",
+        "email": "Log in to churchofjesuschrist.org to send email to temple",
+        "services": [
+          "Clothing rental available",
+          "No cafeteria available",
+          "Patron housing available",
+          "Distribution center nearby"
+        ],
+        "history": [
+          "18 April 2006 - Announced",
+          "14 November 2007 - Groundbreaking",
+          "13 June 2010 - Dedicated"
+        ],
+        "ordSched": [
+          "Living or Group Ordinances: By Appointment",
+          "Walk-in Ordiances Daily"
+        ],
+        "sesSched": [
+          "Tuesday - Friday: Every Hour from 7:00am - 8:00pm",
+          "Saturday: Every Hour from 6:00am - 1:00pm"
+        ],
+        "closureSchedule": [
+          "Monday, 15 August 2022 - Monday, 24 October 2022",
+          "Saturday, 24 December 2022",
+          "Saturday, 31 December 2022",
+          "Monday, 13 March 2023 - Monday, 27 March 2023",
+          "Saturday, 8 April 2023",
+          "Monday, 14 August 2023 - Monday, 28 August 2023",
+          "Saturday, 14 October 2023"
+        ]
+      },
+      {
+        "name": "Louisville Kentucky Temple",
+        "address": "7116 West Hwy 22, Crestwood KY 40014",
+        "telephone": "(502) 241-4115",
+        "email": "Log in to churchofjesuschrist.org to send email to temple",
+        "services": [
+          "No clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "No distribution center nearby"
+        ],
+        "history": [
+          "17 March 1999 - Announced",
+          "29 May 1999 - Groundbreaking",
+          "19 March 2000 - Dedicated"
+        ],
+        "ordSched": [
+          "Living or Group Ordinances: By Appointment",
+          "Baptistry: Wednesday, Friday, Saturday",
+          "Other Ordiances Daily"
+        ],
+        "sesSched": [
+          "Tuesday & Thursday: 6:15am, 7:30am",
+          "Wednesday: 10:15am, 11:30am",
+          "Friday: 10:15am, 11:30am, 6:15pm, 7:30pm",
+          "Saturday: 9:00am, 11:00am, 1:00pm, 3:00pm"
+        ],
+        "closureSchedule": [
+          "Saturday, 1 October 2022",
+          "Monday, 10 October 2022 - Monday, 24 October 2022",
+          "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+          "Saturday, 24 December 2022",
+          "Saturday, 31 December 2022"
+        ]
+      },
+      {
+        "name": "Nauvoo Illinois Temple",
+        "address": "50 N Wells St., Nauvoo IL 62354",
+        "telephone": "(217) 453-6252",
+        "email": "Log in to churchofjesuschrist.org to send email to temple",
+        "services": [
+          "Clothing rental available",
+          "No cafeteria available",
+          "Patron housing available",
+          "No distribution center nearby"
+        ],
+        "history": [
+          "4 April 1999 - Announced",
+          "24 October 1999 - Groundbreaking",
+          "27 June 2002 - Dedicated"
+        ],
+        "ordSched": [
+          "Living or Group Ordinances: By Appointment",
+          "Walk-in Ordiances Daily"
+        ],
+        "sesSched": [
+          "Tuesday & Thursday: 9:00am, 10:00am, 11:00am, 12:00pm",
+          "Wednesday & Friday: 3:00pm, 4:00pm, 5:00pm, 6:00pm",
+          "Saturday: Every Hour from 8:00am - 5:00pm"
+        ],
+        "closureSchedule": [
+          "Monday, 26 September 2022 - Monday, 24 October 2022",
+          "Thursday, 24 November 2022",
+          "Saturday, 24 December 2022",
+          "Saturday, 31 December 2022"
+        ]
+      },
+      {
+        "name": "Redlands California Temple",
+        "address": "1761 Fifth Ave., Redlands CA 92374",
+        "telephone": "(909) 389-7369",
+        "email": "Log in to churchofjesuschrist.org to send email to temple",
+        "services": [
+          "No clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+        ],
+        "history": [
+          "21 April 2001 - Announced",
+          "1 December 2001 - Groundbreaking",
+          "14 September 2003 - Dedicated"
+        ],
+        "ordSched": [
+          "All Ordinances: By Appointment"
+        ],
+        "sesSched": [
+          "Tuesday - Saturday: By Appointment Only"
+        ],
+        "closureSchedule": [
+          "Saturday, 1 October 2022",
+          "Monday, 17 October 2022 - Monday, 31 October 2022",
+          "Thursday, 24 November 2022 - Friday, 25 November 2022",
+          "Friday, 23 December 2022 - Saturday, 24 December 2022",
+          "Monday, 3 April 2023 - Monday, 17 April 2023",
+          "Monday, 16 October 2023 - Monday, 30 October 2023"
+        ]
+      },
+      {
+        "name": "Winter Quarters Nebraska Temple",
+        "address": "8283 N 34th St., Omaha NE 68112",
+        "telephone": "(402) 453-3406",
+        "email": "Log in to churchofjesuschrist.org to send email to temple",
+        "services": [
+          "No clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "No distribution center nearby"
+        ],
+        "history": [
+          "14 June 1999 - Announced",
+          "28 November 1999 - Groundbreaking",
+          "22 April 2001 - Dedicated"
+        ],
+        "ordSched": [
+          "Living or Group Ordinances: By Appointment",
+          "Baptistry: Friday, All other days By Appointment",
+          "Other Ordiances Daily"
+        ],
+        "sesSched": [
+          "Tuesday & Thursday: 6:00pm, 7:30pm",
+          "Wednesday: 9:30am, 11:00am, 7:00pm",
+          "Friday: 6:00am, 10:00am, 12:00pm, 6:00pm, 7:30pm",
+          "Saturday: 8:00am, 10:00am, 12:00pm, 2:00pm, 4:00pm, 6:00pm"
+        ],
+        "closureSchedule": [
+          "Monday, 29 August 2022 - Monday, 26 September 2022",
+          "Saturday, 1 October 2022",
+          "Thursday, 24 November 2022",
+          "Saturday, 24 December 2022",
+          "Saturday, 31 December 2022"
+        ]
+      }
+    ]
+  }

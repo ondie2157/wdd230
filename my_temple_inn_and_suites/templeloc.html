@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Welcome to the temple inn and suites, We are the hotel for your soul!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Temple Inn and Suites</title>
+</head>
+
+<body>
+    <header class="header-content">
+        <picture>
+            <img src="images/temple-logo.png" width="150" alt="temple logo">
+        </picture>
+        <section class="head">
+            <h1>Temple Inn & Suites</h1>
+            <p>We are here to comfort you</p>
+        </section>
+        <div>
+            <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook-logo-2019.png" width="40"
+                    alt="facebook-icon"></a>
+            <a href="https://twitter.com/"><img class="social-media"
+                    src="images/logo-twitter-circle-png-transparent-image-1.png" width="40" alt="twitter-icon"></a>
+            <a href="https://instagram.com/"><img class="social-media" src="images/instagram.png" width="40"
+                    alt="instagram-icon"></a>
+            <a href="https://whatsapp.com/"><img class="social-media" src="images/whatsapp.png" width="40"
+                    alt="whatsapp-icon"></a>
+        </div>
+    </header>
+    <nav>
+        <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="current-page"><a href="templeloc.html">Temples</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="datetime">
+        <script src="js/currentdate.js"></script>
+    </div>
+    <main class="clearfix">
+        <h1>Temples Near Our Locations</h1>
+        <h3>"The House(s) of the Lord"</h3>
+        <p>Weather forecast information provided by <a href="//openweathermap.org">Open Weather Map</a></p>
+        <div class="herodiv">
+            <figure id="slideshow">
+                <img src="images/indianapolis-indiana-720w.jpg" alt="Indianapolis Indiana" sizes="100vw" srcset="images/indianapolis-indiana-720w.jpg 720w,
+                        images/indianapolis-indiana.jpg 1280w">
+                <img src="images/laie-hawaii-720w.jpg" alt="Laie Hawaii" sizes="100vw" srcset="images/laie-hawaii-720w.jpg 720w,
+                        images/laie-hawaii.jpg 1280w">
+                <img src="images/louisville-kentucky-720w.jpg" alt="Louisville Kentucky" sizes="100vw" srcset="images/louisville-kentucky-720w.jpg 720w,
+                        images/louisville-kentucky.jpg 1280w">
+                <img src="images/nauvoo-illinois-720w.jpg" alt="Nauvoo Illinois" sizes="100vw" srcset="images/nauvoo-illinois-720w.jpg 720w,
+                        images/nauvoo-illinois.jpg 1280w">
+                <img src="images/redlands-california-720w.jpg" alt="Redlands California" sizes="100vw" srcset="images/redlands-california-720w.jpg 720w,
+                        images/redlands-california.jpg 1280w">
+                <img src="images/winter-quarters-nebraska-720w.jpg" alt="Winter Quarters Nebraska" sizes="100vw" srcset="images/winter-quarters-nebraska-720w.jpg 720w,
+                        images/winter-quarters-nebraska.jpg 1280w">
+            </figure>
+            <section class="actioncall">
+                <h3>Temple Weather Today</h3>
+                <p>Manila Philippines:
+                    <script>currentWeather(1)</script><span id="mainTemp1">00</span>&deg; and <span
+                        id="currentType1">Cloudy</span>
+                </p>
+                <p>Cebu Philippines:
+                    <script>currentWeather(2)</script><span id="mainTemp2">00</span>&deg; and <span
+                        id="currentType2">Cloudy</span>
+                </p>
+                <p>Louisville KY:
+                    <script>currentWeather(3)</script><span id="mainTemp3">00</span>&deg; and <span
+                        id="currentType3">Cloudy</span>
+                </p>
+                <p>Nauvoo Illinois:
+                    <script>currentWeather(4)</script><span id="mainTemp4">00</span>&deg; and <span
+                        id="currentType4">Cloudy</span>
+                </p>
+                <p>Redlands CA:
+                    <script>currentWeather(5)</script><span id="mainTemp5">00</span>&deg; and <span
+                        id="currentType5">Cloudy</span>
+                </p>
+                <p>Winter Quarters:
+                    <script>currentWeather(6)</script><span id="mainTemp6">00</span>&deg; and <span
+                        id="currentType6">Cloudy</span>
+                </p>
+                <form method="get" action="reservation.html"><button type="submit"><b>Book Now</b></button></form>
+            </section>
+        </div>
+        <div class="temples">
+
+        </div>
+        <div class="special">
+            <h2 class="title">Welcome to the Temples Page</h2>
+            <p><strong>What are temples?<br /></strong>Today, there are over 160 operating temples in countries around
+                the world. Dozens more are announced or under construction.<br />
+
+                Regardless of the time in history, a temple of God is the most sacred place of worship in the world — a
+                place where heaven touches the earth, a place where marvelous blessings are bestowed, and a place where
+                we can feel closer to our Heavenly Father and Jesus Christ as we strive to become more like Them.<br />
+                Click <a href="https://www.churchofjesuschrist.org/temples/list?lang=eng">Here</a> to explore more temples.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="headerItems" id="footerSocial">
+            <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook-logo-2019.png" width="40"
+                    alt="facebook-icon"></a>
+            <a href="https://twitter.com/"><img class="social-media"
+                    src="images/logo-twitter-circle-png-transparent-image-1.png" width="40" alt="twitter-icon"></a>
+            <a href="https://instagram.com/"><img class="social-media" src="images/instagram.png" width="40"
+                    alt="instagram-icon"></a>
+            <a href="https://whatsapp.com/"><img class="social-media" src="images/whatsapp.png" width="40"
+                    alt="whatsapp-icon"></a>
+        </div>
+        <div class="footer4">
+            &#x260F; Phone: (+254) 704 469 693 <strong>|</strong><br />
+            &#x2709; Address: 4800 Montgomery Ln #300, Bethesda, MD 20814 <br />
+            <img id="footerLogo" src="images/temple-logo.png" width="50" alt="Temple Inn and Suites logo"> <br />
+        </div>
+
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12405.620040177426!2d-77.095532!3d38.983252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2ske!4v1648799757393!5m2!1sen!2ske"
+                width="700" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" id="mediumMap"></iframe>
+        </div>
+        <div class="footer3">
+
+            &copy;2022 Temple Inn & Suites | <a href="contacts.html">Contact Us</a> | <a href="terms.html">Guest
+                Policies</a>
+            <p class="sub-footer"><a href="attributions.html">Attributions</a> | <a
+                    href="https://ondie2157.github.io/wdd230">Efren D. Baconawa Jr.</a></p>
+            <script src="js/currentdate.js"></script>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/fillJSON.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+
+</html>

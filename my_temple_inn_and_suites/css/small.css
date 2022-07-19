@@ -1,0 +1,557 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Amiri', Verdana, sans-serif;
+    min-width: 320px;
+}
+
+/*----------- HEADER --------------*/
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white
+}
+
+nav {
+    background-color: #05dc30;
+    text-align: center;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: .8rem 2vw;
+    border-top: 1px solid #05dc30;
+    font-size: large;
+}
+
+nav ul li a:hover {
+    background-color: #FCA311;
+    color: #000000;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li.current-page a {
+    background-color: #e99652;
+    color: #111111;
+}
+nav ul.hide {
+    display: none;
+}
+
+.menu {
+    list-style: none;
+    display: none;
+}
+
+.responsive {
+    display: block;
+    list-style: none;
+}
+
+/* ------- Header -------- */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1,
+h2 {
+    font-family: 'Great Vibes', cursive, sans-serif;
+    color: #361c01;
+    font-size: 3em;
+    margin: 25px;
+}
+
+.datetime {
+    text-align: center;
+    padding: 1rem;
+    font-size: medium;
+    background-color: rgb(87, 149, 100);
+    font-weight: 800;
+}
+
+/* -------Weather--------*/
+.weather {
+    width: 30vh;
+    height: 35vh;
+}
+
+.weatherInfo {
+    position: absolute;
+    right: 5%;
+    bottom: 5px;
+    text-align: left;
+}
+
+.weather figure {
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+
+#weatherIcon {
+    width: 50%;
+}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 2%;
+    min-height: 10rem;
+}
+
+main h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #02510e;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+Main h2 {
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 30px;
+    color: #02510e;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+main .herodiv {
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+main .herodiv figure {
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .herodiv .actioncall {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: #c0c0c0;
+    border: 1px solid #000;
+    padding: 0.2rem;
+    box-shadow: 0 0 30px #fff;
+}
+
+main .herodiv .actioncall button {
+    border: none;
+    background-color: #02510e;
+    color: rgb(249, 245, 245);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+}
+
+main .herodiv .actioncall h3 {
+    margin: 0.5rem;
+}
+
+main .herodiv .actioncall p {
+    margin: 0.2rem;
+}
+
+main .row {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2rem;
+}
+
+main .row section:nth-child(3) {
+    margin-left: 2%;
+}
+
+main .gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .gallery figure {
+    flex-basis: 96%;
+    margin: 1rem 2%;
+    transition: all .2s ease-in-out;
+}
+
+main .gallery figure figcaption {
+    padding: 1%;
+}
+
+main .gallery figure:hover {
+    transform: scale(1.05);
+}
+
+main .gallery figure img {
+    width: 100%;
+}
+
+main img {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*----------- MAIN --------------*/
+#slideshow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#slideshow img {
+    float: left;
+    margin: 0 -100% 0 0;
+}
+
+/*----------- FORM --------------*/
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 96%;
+}
+
+form fieldset {
+    margin: 2rem 2%;
+    border: 1px solid #527ee9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #527ee9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div,
+form label.slide {
+    display: block;
+    padding-top: 1rem;
+    color: #527ee9;
+    font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 25rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form label.slide input {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 25rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #527ee9;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 25rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+form label.top textarea {
+    margin: 2% 0;
+    width: 100%;
+    max-width: 56rem;
+    height: 8rem;
+}
+
+/*----------- ARTICLE --------------*/
+main .temples {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .temples article {
+    margin: 1rem 2%;
+    flex-basis: 96%;
+    border-style: ridge;
+    border-color: #527ee9;
+    border-width: 6px;
+    padding: 1%;
+    transition: all .2s ease-in-out;
+}
+
+main .temples article img {
+    width: 100%;
+}
+
+main .temples article:hover {
+    box-shadow: 0 0 12px #555;
+    transform: scale(1.05);
+}
+
+/*---Services Page---*/
+
+
+.special {
+    border: solid 7px #2159f3;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    line-height: 40px;
+    background-color: rgb(255, 251, 251);
+}
+
+
+
+.title {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #05dc30;
+}
+
+.specialImg {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FULL-TIME MISSIONARY PAGE */
+.grid-container {
+    background-color: skyblue;
+    padding-bottom: 20px;
+}
+
+main.grid-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text1 {
+    color: black;
+    font-size: 20px;
+    padding: 8px 12px;
+    bottom: 15px;
+    margin-left: 38px;
+    width: 100%;
+    font-style: italic;
+}
+
+.action,
+.types {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.photo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px outset white;
+}
+
+.bed-button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(248, 246, 246);
+    background-color: rgb(30, 19, 242);
+    border: none;
+  }
+  
+  .bed-button:hover {
+    background-color: #FCA311;
+    color: #000;
+  }
+/* Next & previous buttons */
+
+.prev1,
+.next1 {
+    cursor: pointer;
+    position: absolute;
+    /* top: 50%;  */
+    left: 50%;
+    width: fit-content;
+    padding: 16px;
+    margin-top: -40px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #DCD0C0;
+}
+
+/* Position the "next button" to the right */
+
+.next1 {
+    /* right: 0; */
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev1:hover,
+.next1:hover {
+    background-color: rgb(167, 143, 113);
+}
+
+.prev1 {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.numbertext {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: larger;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+
+.testimonials {
+    font-size: 0.9rem;
+    display: grid;
+    grid-template-areas:
+        "div div"
+        "div div";
+    grid-gap: 20px 50px;
+    margin: 20px;
+}
+
+.testimonials img {
+    display: none;
+}
+
+.testimonials p {
+    margin: 0px;
+}
+
+.comment-wrap {
+    text-align: right;
+}
+
+.third-comment {
+    display: none;
+}
+
+.name-wrap {
+    color: #012A36;
+    font-size: 0.8em;
+}
+
+/*----------- CONTACT --------------*/
+body .contact {
+    padding: 0 2%;
+}
+
+body .contact p {
+    margin: 0.2rem;
+}
+
+body .contact h2 {
+    margin: 0;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #05dc30;
+    color: #fbfbfb;
+    padding: .5rem 2%;
+    text-align: center;
+    clear: both;
+}
+footer a {
+    color: #fbfbfb;
+    text-decoration: none;
+ }
+
+ .sub-footer {
+    font-size: .8em;
+    line-height: 1em;
+ }
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

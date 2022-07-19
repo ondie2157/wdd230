@@ -1,0 +1,73 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, section, footer, body .contact {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+/*----------- HEADER --------------*/
+
+/*----------- NAVIGATION --------------*/
+/* -------Navigation--------*/
+nav button {
+    display: none;
+}
+
+
+nav ul li {
+    align-self: center;
+    flex: 1 1 auto;
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(211, 211, 211, .3);
+    text-align: center;
+    padding: 1rem 2vw;
+}
+
+nav ul li a:hover {
+    padding: 1rem 2vw;
+}
+
+nav ul li.social-media-1 a,
+nav ul li.social-media-2 a {
+    border: none;
+    padding: 0;
+}
+
+
+/*----------- MAIN --------------*/
+main .gallery figure {
+    flex-basis: 29%;
+}
+main .gallery figure:hover {box-shadow: 0 0 50px #333;}
+
+/*----------- ARTICLE --------------*/
+/*main .temples article {
+    flex-basis: 29%;
+}*/
+/* Services*/
+div.specialImg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+/*----------- FORM --------------*/
+
+form label.sbs{
+    padding: .4rem 0;
+}
+
+form label.top textarea {
+    height: 16rem;
+}
+
+/*----------- FOOTER --------------*/
+    
+}
